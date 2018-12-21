@@ -3,7 +3,12 @@
     url(../img/image.jpg) center/cover no-repeat fixed;
   min-height: 100vh;
 }
-
+.height1 {
+  min-height: 10vh;
+}
+.height2 {
+  min-height: 20vh;
+}
 .height-start {
   height: 60vh;
 }
@@ -104,7 +109,7 @@ footer {
   }
   h3,
   h4 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .icon {
     width: 40px;
