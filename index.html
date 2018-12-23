@@ -14,7 +14,7 @@
     <!-- start -->
     <section id="start" class="container-fluid">
       <!-- navbar -->
-      <nav class="navbar height1 py-3 navbar-expand-sm navbar-dark">
+      <nav class="navbar navbar-height py-3 my-3 navbar-expand-sm navbar-dark">
         <!-- logo -->
         <a href="#" class="navbar-brand text-uppercase font-italic" style="color: #d9d9d9">Lexie &#128048</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
@@ -24,21 +24,22 @@
           <ul class="navbar-nav">
             <li class="nav-item active"><a href="#start" class="nav-link" style="color: #ffffff">home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link" style="color: #d9d9d9">about me</a></li>
-            <li class="nav-item"><a href="#skills" class="nav-link" style="color: #d9d9d9">skills</a></li>
             <li class="nav-item"><a href="#projects" class="nav-link" style="color: #d9d9d9">projects</a></li>
           </ul>
         </div>
       </nav>
       <!-- end of navbar -->
-      <div class="row height2 justify-content-end mr-1 my-5 align-items-end">
-        <h3 class="font-italic my-5 ">Coding is my art of self-expression . . .</h3>
+      <div class="col my-5 blockquote-height">
+        <blockquote class="blockquote text-right">
+          <p><i class="fas fa-quote-left fa-1x mr-3"></i><span class="quote">Coding is my art of self-expression . . .</span></p>
+        </blockquote>
       </div>
       <!-- skills -->
-<div class="d-flex flex-column text-center height-start justify-content-end pb-5 mx-auto">
+<div class="d-flex flex-column text-center skills-height justify-content-end pb-5 mx-auto">
 <div class="row mb-3">
     <div class="col mt-4 align-self-center">
       <h2 class="text-center text-uppercase">skills</h2>
-      <div class="skills bg-danger "></div>
+      <div class="skills-underline bg-danger "></div>
     </div>
 </div>  
 <div class="row mb-3 text-center justify-content-around">
@@ -77,20 +78,20 @@
     </section>
     <!-- end of start -->
     <!-- about -->
-    <section id="about" class="container-fluid">
+    <section id="about-me" class="container-fluid">
       <div class="row mx-2">
         <div class="col-11 col-sm-8 col-md-6 col-lg-4 mx-auto">
           <div class="row">
             <div class="col mt-4 align-self-center">
               <h2 class="text-center text-uppercase">about me</h2>
-              <div class="about-me bg-danger "></div>
+              <div class="about-me-underline bg-danger "></div>
             </div>
           </div>
           <div class="row my-3">
               <div id="example" class="carousel slide" data-ride="carousel">
 
                 <!-- images -->
-                <div class="carousel-inner border-car">
+                <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="./img/tic-tac-toe.png" alt="" class="d-bock w-100" />
                   </div>
@@ -157,7 +158,7 @@
         <div class="row">
             <div class="col">
               <h2 class="text-center text-uppercase mt-4">projects</h2>
-              <div class="projects bg-danger"></div>
+              <div class="projects-underline bg-danger"></div>
             </div>
           </div>
         <!-- single project -->
@@ -166,9 +167,11 @@
             <div class="card">
               <img src="./img/tic-tac-toe.png" alt="" class="project card-img-top" />
               <div class="card-body">
-                <h5 class="card-title text-capitalize text-center">Tic Tac Toe</h5>
+                <h5 class="card-title text-capitalize text-center mb-0">Tic Tac Toe</h5>
+                              <div class="project-underline project1-underline bg-danger"></div>
+
                 
-                <a href="https://github.com/Lexie14/tic-tac-toe" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto"
+                <a href="https://github.com/Lexie14/tic-tac-toe" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2"
                   >View</a
                 >
               </div>
@@ -188,9 +191,9 @@
             <div class="card">
               <img src="./img/portfolio.png" alt="" class="project card-img-top" />
               <div class="card-body">
-                <h5 class="card-title text-capitalize text-center">Portfolio Website</h5>
-          
-                <a href="https://github.com/Lexie14/portfolio" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto">View</a>
+                <h5 class="card-title text-capitalize text-center mb-0">Portfolio Website</h5>
+                                        <div class="project-underline project2-underline bg-danger"></div>
+                <a href="https://github.com/Lexie14/portfolio" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2">View</a>
               </div>
               <div class="card-footer d-flex justify-content-around">
                 <i class="fab fa-html5 fa-2x"></i>
@@ -209,9 +212,9 @@
                 class="project card-img-top"
               />
               <div class="card-body">
-                <h5 class="card-title text-capitalize text-center">Neighborhood Map</h5>
-              
-                <a href="https://github.com/Lexie14/Neighborhood-Map" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto"
+                <h5 class="card-title text-capitalize text-center mb-0">Neighborhood Map</h5>
+                                            <div class="project-underline project3-underline bg-danger"></div>
+                <a href="https://github.com/Lexie14/Neighborhood-Map" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2"
                   >View</a
                 >
               </div>
@@ -234,9 +237,9 @@
                 class="project card-img-top"
               />
               <div class="card-body">
-                <h5 class="card-title text-capitalize text-center">My Reads</h5>
-                
-                <a href="https://github.com/Lexie14/reactnd-project-myreads-starter" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto"
+                <h5 class="card-title text-capitalize text-center mb-0">My Reads</h5>
+                                              <div class="project-underline project4-underline bg-danger"></div>
+                <a href="https://github.com/Lexie14/reactnd-project-myreads-starter" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2"
                   >View</a
                 >
               </div>
@@ -255,9 +258,9 @@
           <div class="card">
             <img src="./img/reviews.jpg" alt="" class="project card-img-top" />
             <div class="card-body">
-              <h5 class="card-title text-capitalize text-center">Restaurant Reviews</h5>
-              
-              <a href="https://github.com/Lexie14/restaurant-reviews" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto">View</a>
+              <h5 class="card-title text-capitalize text-center mb-0">Restaurant Reviews</h5>
+                                            <div class="project-underline project5-underline bg-danger"></div>
+              <a href="https://github.com/Lexie14/restaurant-reviews" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2">View</a>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <i class="fab fa-html5 fa-2x"></i>
@@ -272,9 +275,9 @@
           <div class="card">
             <img src="./img/arcade-game.png" alt="" class="project card-img-top" />
             <div class="card-body">
-              <h5 class="card-title text-capitalize text-center">Arcade Game</h5>
-              
-              <a href="https://github.com/Lexie14/arcade-game" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto">View</a>
+              <h5 class="card-title text-capitalize text-center mb-0">Arcade Game</h5>
+                                            <div class="project-underline project6-underline bg-danger"></div>
+              <a href="https://github.com/Lexie14/arcade-game" target="_blank" class="btn btn-outline-danger text-uppercase d-block mx-auto mt-2">View</a>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <i class="fab fa-html5 fa-2x"></i>
@@ -289,9 +292,9 @@
           <div class="card">
             <img src="./img/memory-game.png" alt="" class="project card-img-top" />
             <div class="card-body">
-              <h5 class="card-title text-capitalize text-center">Memory Game</h5>
-             
-              <a href="https://github.com/Lexie14/fend-project-memory-game" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto">View</a>
+              <h5 class="card-title text-capitalize text-center mb-0">Memory Game</h5>
+                                          <div class="project-underline project7-underline bg-danger"></div>
+              <a href="https://github.com/Lexie14/fend-project-memory-game" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2">View</a>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <i class="fab fa-html5 fa-2x"></i>
@@ -306,8 +309,9 @@
           <div class="card">
             <img src="./img/pixel-maker.png" alt="" class="project card-img-top" />
             <div class="card-body">
-              <h5 class="card-title text-capitalize text-center">Pixel Art Maker</h5>
-              <a href="https://github.com/Lexie14/pixel-art-maker" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto">View</a>
+              <h5 class="card-title text-capitalize text-center mb-0">Pixel Art Maker</h5>
+                                                          <div class="project-underline project8-underline bg-danger"></div>
+              <a href="https://github.com/Lexie14/pixel-art-maker" target="_blank" class="btn btn-danger text-uppercase d-block mx-auto mt-2">View</a>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <i class="fab fa-html5 fa-2x"></i>
@@ -326,7 +330,7 @@
       <div class="container-fluid p-0">
         <!-- title -->
         <div>
-          <div class="col row align-items-center ser justify-content-center m-0">
+          <div class="col row align-items-center footer-height justify-content-center m-0">
             <p class="mb-0 m-0">
               <strong class="font-italic">Created by Lexie &#128048</strong>
             </p>
