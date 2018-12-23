@@ -135,13 +135,10 @@ body {
   background-color: #999999;
   border: 1px solid #a6a6a6;
   border-radius: 8px;
-  color: #f2f2f2;
+  color: #f2f2f2 !important;
+  box-shadow: none !important;
 }
 
-.btn:focus,
-.btn:active {
-  box-shadow: none;
-}
 /* footer section */
 
 #footer {
